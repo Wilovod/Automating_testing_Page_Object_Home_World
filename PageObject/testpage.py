@@ -66,7 +66,7 @@ class OperationsHelper(BasePage):
         self.find_element(TestSearchLocators.LOCATOR_CONTACT_US_CLICK).click()
 
     def get_alert_message(self):
-        time.sleep(1)
+        time.sleep(2)
         logging.info("Get alert message")
         txt = self.get_alert_txt()
         logging.info(f"Alert message is {txt}")
