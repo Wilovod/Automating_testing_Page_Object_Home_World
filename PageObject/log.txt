@@ -1,20 +1,20 @@
-16:49:03 INFO ====== WebDriver manager ======
-16:49:05 INFO Get LATEST chromedriver version for google-chrome
-16:49:06 INFO Get LATEST chromedriver version for google-chrome
-16:49:08 INFO Driver [C:\Users\kds36\.wdm\drivers\chromedriver\win64\120.0.6099.71\chromedriver-win32/chromedriver.exe] found in cache
-16:49:10 INFO Test1 starting
-16:49:11 INFO Senf test of element //*[@id="login"]/div[1]/label/input
-16:49:12 INFO Senf test of element //*[@id="login"]/div[2]/label/input
-16:49:12 INFO Click login button
-16:49:13 INFO We find text 401 in error field //*[@id="app"]/main/div/div/div[2]/h2
-16:49:13 INFO Test2 starting
-16:49:13 INFO Senf GB2023070359817 of element //*[@id="login"]/div[1]/label/input
-16:49:14 INFO Senf 6dd73090c5 of element //*[@id="login"]/div[2]/label/input
-16:49:14 INFO Click login button
-16:49:14 INFO Contact_click
-16:49:16 INFO  Dmitriy of element //*[@id="contact"]/div[1]/label/input
-16:49:16 INFO  kds360@mail.ru of element //*[@id="contact"]/div[2]/label/input
-16:49:17 INFO  Text of element //*[@id="contact"]/div[3]/label/span/textarea
-16:49:18 INFO click_contact_us
-16:49:20 INFO Get alert message
-16:49:20 INFO Alert message is Form successfully submitted
+20:48:21 INFO ====== WebDriver manager ======
+20:48:22 INFO Get LATEST chromedriver version for google-chrome
+20:48:23 INFO Get LATEST chromedriver version for google-chrome
+20:48:24 INFO Driver [C:\Users\kds36\.wdm\drivers\chromedriver\win64\120.0.6099.71\chromedriver-win32/chromedriver.exe] found in cache
+20:48:26 INFO Test1 starting
+20:48:27 INFO Enter login test of element //*[@id="login"]/div[1]/label/input
+20:48:27 INFO Enter password test of element //*[@id="login"]/div[2]/label/input
+20:48:27 INFO Click login button
+20:48:28 INFO We find text 401 in error field //*[@id="app"]/main/div/div/div[2]/h2
+20:48:28 INFO Test2 starting
+20:48:29 INFO Enter login GB2023070359817 of element //*[@id="login"]/div[1]/label/input
+20:48:29 INFO Enter password 6dd73090c5 of element //*[@id="login"]/div[2]/label/input
+20:48:29 INFO Click login button
+20:48:29 INFO Contact_click
+20:48:31 INFO Enter name Dmitriy of element //*[@id="contact"]/div[1]/label/input
+20:48:32 INFO Enter email kds360@mail.ru of element //*[@id="contact"]/div[2]/label/input
+20:48:32 INFO Enter content Text of element //*[@id="contact"]/div[3]/label/span/textarea
+20:48:33 INFO click_contact_us
+20:48:35 INFO Get alert message
+20:48:35 INFO Alert message is Form successfully submitted

@@ -18,13 +18,13 @@ class TestSearchLocators:
 
 class OperationsHelper(BasePage):
     def enter_login(self, word):
-        logging.info(f"Senf {word} of element {TestSearchLocators.LOCATOR_LOGIN_FIELD[1]}")
+        logging.info(f"Enter login {word} of element {TestSearchLocators.LOCATOR_LOGIN_FIELD[1]}")
         login_field = self.find_element(TestSearchLocators.LOCATOR_LOGIN_FIELD)
         login_field.clear()
         login_field.send_keys(word)
 
     def enter_pass(self, word):
-        logging.info(f"Senf {word} of element {TestSearchLocators.LOCATOR_PASS_FIELD[1]}")
+        logging.info(f"Enter password {word} of element {TestSearchLocators.LOCATOR_PASS_FIELD[1]}")
         login_field = self.find_element(TestSearchLocators.LOCATOR_PASS_FIELD)
         login_field.clear()
         login_field.send_keys(word)
@@ -44,19 +44,19 @@ class OperationsHelper(BasePage):
         self.find_element(TestSearchLocators.LOCATOR_Contact_CLICK).click()
 
     def enter_name(self, word):
-        logging.info(f" {word} of element {TestSearchLocators.LOCATOR_ENTER_NAME[1]}")
+        logging.info(f"Enter name {word} of element {TestSearchLocators.LOCATOR_ENTER_NAME[1]}")
         enter_name = self.find_element(TestSearchLocators.LOCATOR_ENTER_NAME)
         enter_name.clear()
         enter_name.send_keys(word)
 
     def enter_email(self, word):
-        logging.info(f" {word} of element {TestSearchLocators.LOCATOR_ENTER_EMAIL[1]}")
+        logging.info(f"Enter email {word} of element {TestSearchLocators.LOCATOR_ENTER_EMAIL[1]}")
         enter_email = self.find_element(TestSearchLocators.LOCATOR_ENTER_EMAIL)
         enter_email.clear()
         enter_email.send_keys(word)
 
     def enter_text(self, word):
-        logging.info(f" {word} of element {TestSearchLocators.LOCATOR_ENTER_TEXT[1]}")
+        logging.info(f"Enter content {word} of element {TestSearchLocators.LOCATOR_ENTER_TEXT[1]}")
         enter_text = self.find_element(TestSearchLocators.LOCATOR_ENTER_TEXT)
         enter_text.clear()
         enter_text.send_keys(word)
@@ -64,13 +64,6 @@ class OperationsHelper(BasePage):
     def click_contact_us(self):
         logging.info("click_contact_us")
         self.find_element(TestSearchLocators.LOCATOR_CONTACT_US_CLICK).click()
-
-    def switch_alert(self):
-        time.sleep(1)
-        logging.info("Switch alert")
-        alert = self.driver.switch_to.alert()
-        logging.info(alert)
-        return alert
 
     def get_alert_message(self):
         time.sleep(1)
